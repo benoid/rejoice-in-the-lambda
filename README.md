@@ -1,2 +1,2 @@
 # rejoice-in-the-lambda
-A repository of useful Scheme functions.
+A repository to store useful Scheme functions.
