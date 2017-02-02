@@ -1,5 +1,5 @@
 ;; Copyright (C) David Benoit 2017
-;;
+;; Author: David Benoit
 ;; rotate-table
 ;;
 ;; Precondition: All 2nd dimension lists in the table
