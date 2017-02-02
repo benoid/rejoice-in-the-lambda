@@ -1,5 +1,5 @@
 ;; Copyright (C) David Benoit 2017
-;;
+;; Author: David Benoit
 ;; map*
 ;;
 ;; Unleash the full power of mapping variardic functions.
