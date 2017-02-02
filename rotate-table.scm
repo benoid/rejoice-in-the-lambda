@@ -32,7 +32,7 @@
 ;; V    
 ;; 9 -> 10 ->11 ->12
 
-;; Standalone version
+;; The definition can be written as a standalone procedure
 (define (rotate-table list-of-lists)
   (call-with-values 
     (lambda ()
@@ -40,8 +40,9 @@
              (cons list list-of-lists)))
     map))
 
-;; Implementing the procedure via  map* makes the 
-;; definition a bit more intuitive
+;; However, implementing the procedure via  map* makes the 
+;; definition a bit more intuitive (because the standalone
+;; procedure needs to implent the functionality map* anyway).
 #|
 (require "./map-star.scm")
 
