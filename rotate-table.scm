@@ -42,7 +42,7 @@
 
 ;; However, implementing the procedure via  map* makes the 
 ;; definition a bit more intuitive (because the standalone
-;; procedure needs to implent the functionality map* anyway).
+;; procedure needs to implent the functionality of map* anyway).
 #|
 (require "./map-star.scm")
 
